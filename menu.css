@@ -1,0 +1,107 @@
+.FONDO{
+    background-image: url(RESTAURANTE.jpg);
+    justify-content: space-evenly;
+	display: flex;
+	align-items: center;    
+    margin: -10px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+.IMAGEN{
+    height: 160px;
+    width: 200px;
+    background-color: black;   
+}
+
+
+.EDICION{
+    border: rgb(190, 97, 209) solid 4px;
+    padding: 2px;  
+    flex-wrap: wrap;
+	justify-content: space-evenly;
+	display: flex;
+	align-items: center; 
+    margin: 10px;
+    border-radius: 7%;
+}
+.EDICION2{
+    border: rgb(190, 97, 209) solid 4px;
+    padding: 2px;  
+    flex-wrap: wrap;
+	justify-content: space-evenly;
+	display: flex;
+	align-items: center; 
+    margin: 10px;
+    font-size: 25px;
+    border-radius: 7%; 
+}
+
+div{
+    background-position:center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+    margin: 5px;
+    
+}
+
+
+button{
+    font-size: 36px;
+    color: beige;
+    background-color: rgba(0, 0, 0, 0.863);
+    border-radius: 20% ;
+    height: 50px;
+    border: 3px solid rgb(70, 0, 83);  
+}
+
+.LOGOTIPO{
+    border-radius: 100%;
+    border: 8px solid rgba(161, 10, 167, 0.795);
+    width: 300px;
+    height: 300px;
+}
+
+.MENU{
+color:  rgb(250, 248, 235);
+font-size: 40px;
+flex-wrap: wrap;
+justify-content: space-evenly;
+display: flex;
+align-items: center;
+padding: 5px;
+}
+
+.BLANCO{
+    background-color: rgb(248, 224, 250) ;
+    width:300px;
+    flex-wrap: wrap;
+	justify-content: space-evenly;
+	display: flex;
+	align-items: center;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+h2{
+    margin: 4px;
+    font-size: 35px;
+    color:rgb(133, 11, 170) ;
+  
+}
+
+p{
+    margin: 4px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.TRASPARENTE{
+    background-color: rgba(236, 161, 255, 0.418);
+    width: 100%;
+    border-radius: 15px;
+    padding:12px 6px;
+}
